@@ -71,8 +71,7 @@ How to Run Locally
 
     Clone the repository:
 
-```git clone https://github.com/MrTusarRX/spa-test.git
-```
+```git clone https://github.com/MrTusarRX/spa-test.git```
 
 Navigate to the project folder:
 
