@@ -1,4 +1,4 @@
-# AngularJS Single Page Application (SPA)
+# Example Of AngularJS Single Page Application (SPA)
 
 This repository demonstrates how to create a **Single Page Application (SPA)** using **AngularJS**. It showcases the power of AngularJS to manage client-side navigation, where only parts of the page get updated based on user interaction, without requiring a full page reload. This makes your app faster and more responsive.
 
