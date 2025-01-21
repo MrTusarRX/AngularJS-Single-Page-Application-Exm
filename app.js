@@ -1,17 +1,19 @@
-
+// Define AngularJS Module
 var app = angular.module('simpleApp', ['ngRoute']);
+
+// Configure Routes
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'pages/home.html',
+            templateUrl: 'pages/home.html',  // Correct path to home.html
             controller: 'HomeController'
         })
         .when('/about', {
-            templateUrl: 'pages/about.html',
+            templateUrl: 'pages/about.html',  // Correct path to about.html
             controller: 'AboutController'
         })
         .otherwise({
-            redirectTo: '/'
+            redirectTo: '/'  // Default route to the home page
         });
 }]);
 
@@ -25,3 +27,4 @@ app.controller('AboutController', ['$scope', function($scope) {
     $scope.title = "About Me";
     $scope.message = "This is the About Me page. Here you can share details about yourself.";
 }]);
+
