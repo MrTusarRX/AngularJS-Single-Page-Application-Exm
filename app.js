@@ -1,7 +1,4 @@
-// Define AngularJS Module
 var app = angular.module('simpleApp', ['ngRoute']);
-
-// Configure Routes
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/', {
@@ -17,7 +14,6 @@ app.config(['$routeProvider', function($routeProvider) {
         });
 }]);
 
-// Define Controllers
 app.controller('HomeController', ['$scope', function($scope) {
     $scope.title = "Welcome to the Home Page";
     $scope.message = "This is the home page of the AngularJS SPA.";
