@@ -8,21 +8,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
     <script src="app.js"></script>
-    <!-- Base path for GitHub Pages -->
-    <base href="/spa-test/">
 </head>
 <body>
     <header>
         <h1>AngularJS SPA Example</h1>
     </header>
-
     <nav>
-        <!-- Correct hashbang for routing -->
-        <a href="#!/">Home</a>
-        <a href="#!/about">About Me</a>
+        <a href="#/">Home</a>
+        <a href="#/about">About Me</a>
     </nav>
-
-    <!-- Content injected here based on the route -->
     <div class="container" ng-view></div>
 
     <footer>
