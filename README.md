@@ -82,25 +82,12 @@ Navigate to the project folder:
 ```
 
 ## Run a local development server (e.g., using http-server):
-   ```bash
-      npm install -g http-server
-      http-server
-    ```
 
-## Open your browser and visit http://localhost:8080 to view the app locally.
+ ```bash npm install -g http-server
+    http-server
+```
+## License
 
-How to Deploy to GitHub Pages
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-    Push your changes to GitHub.
-    Enable GitHub Pages in the repository settings:
-        Go to the repository on GitHub.
-        Navigate to the "Settings" tab.
-        Under the "Pages" section, set the Source to the main or master branch.
-    Once the deployment is complete, GitHub will host the app at the following URL: https://mrtusarrx.github.io/spa-test/
-
-About the Developer
-
-This project was created by Tusar as a demonstration of building a Single Page Application (SPA) using AngularJS. The goal was to showcase how routing and templates can be managed in AngularJS to build dynamic, client-side web applications.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
