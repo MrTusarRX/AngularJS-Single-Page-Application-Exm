@@ -66,7 +66,7 @@ This dynamic approach allows users to navigate between different sections of the
 
 ### **Base URL for GitHub Pages**
 GitHub Pages requires special handling for paths. To ensure the routing works correctly, a `<base>` tag is included in `index.html` to adjust the paths for routing:
-```html
+
 How to Run Locally
 
     Clone the repository:
