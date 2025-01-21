@@ -79,8 +79,8 @@ Navigate to the project folder:
 
 Run a local development server (e.g., using http-server):
 
-   ```npm install -g http-server
-    http-server```
+   ```npm install -g http-server```
+    ```http-server```
 
     Open your browser and visit http://localhost:8080 to view the app locally.
 
