@@ -71,16 +71,23 @@ How to Run Locally
 
     Clone the repository:
 
-```git clone https://github.com/MrTusarRX/spa-test.git```
+```bash
+git clone https://github.com/MrTusarRX/spa-test.git
+```
 
 Navigate to the project folder:
 
-```cd spa-test```
+```bash
+   cd spa-test
+```
 
 Run a local development server (e.g., using http-server):
 
-   ```npm install -g http-server```
-    ```http-server```
+   ```bash
+      npm install -g http-server
+      http-server
+    ```
+---
 
     Open your browser and visit http://localhost:8080 to view the app locally.
 
