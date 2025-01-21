@@ -13,7 +13,7 @@ app.config(['$routeProvider', function($routeProvider) {
             controller: 'AboutController'
         })
         .otherwise({
-            redirectTo: '/'  // Default route to the home page
+            redirectTo: '/about'  // Default route to the home page
         });
 }]);
 
