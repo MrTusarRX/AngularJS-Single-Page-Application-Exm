@@ -27,4 +27,3 @@ app.controller('AboutController', ['$scope', function($scope) {
     $scope.title = "About Me";
     $scope.message = "This is the About Me page. Here you can share details about yourself.";
 }]);
-
