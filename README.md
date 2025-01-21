@@ -81,15 +81,13 @@ Navigate to the project folder:
    cd spa-test
 ```
 
-Run a local development server (e.g., using http-server):
-
+## Run a local development server (e.g., using http-server):
    ```bash
       npm install -g http-server
       http-server
     ```
----
 
-    Open your browser and visit http://localhost:8080 to view the app locally.
+## Open your browser and visit http://localhost:8080 to view the app locally.
 
 How to Deploy to GitHub Pages
 
