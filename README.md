@@ -4,7 +4,7 @@ This repository demonstrates how to create a **Single Page Application (SPA)** u
 
 ### Demo
 
-View the live demo [here](https://mrtusarrx.github.io/spa-test/).
+View the live demo [here](https://mrtusarrx.github.io/AngularJS-Single-Page-Application-Exm/#!/)
 
 ---
 
